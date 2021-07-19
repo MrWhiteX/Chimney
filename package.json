@@ -1,0 +1,41 @@
+{
+  "name": "sass",
+  "version": "2.0.0",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babili": "^0.1.4",
+    "gulp-build": "^0.5.3",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-useref": "^5.0.0",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.1",
+    "sass": "^1.26.3"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "gulp-cssnano": "^2.1.3"
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
